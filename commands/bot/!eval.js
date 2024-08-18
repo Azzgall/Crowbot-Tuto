@@ -11,7 +11,7 @@ module.exports = {
 	aliases: [],
 	run: async (client, message, args, prefix, color) => {
 
-		if (message.author.id === "1133246357960921158") {
+		if (message.author.id === "953600049227645008") {
 
 			const content = args.join(" ")
 			const result = new Promise((resolve) => resolve(eval(content)));
